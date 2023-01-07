@@ -1,0 +1,149 @@
+h1 {  font-family: 'Montserrat-black, sans-serif';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;
+    color:#ffd;
+}
+h2{
+    font-weight: bold;
+    font-family: 'Montserrat-bold';
+}
+#title{
+    background-color:#ff4c68
+
+}
+.container-fluid{
+    padding:3% 15%
+}
+body{
+    font-family: Montserrat;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight:bold;
+    padding-right:4.5rem
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.collapse{
+    padding-right: 9.5rem;
+
+}
+.nav-item{
+    padding: 3.5rem;
+
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.download-botton{
+    margin:5% 3% 5% 0
+}
+.title-image{
+    width:50%;
+    transform: rotate(25deg);
+    /* position:absolute; */
+
+}
+/* #features{
+    padding-left:  30rem;
+    padding-top: 3.5rem;
+   
+}
+.mid{
+    margin-left: 3.5rem;
+}
+.fa-solid{
+    color: #ef8172;
+} */
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+.fa-solid{
+    color:#ef8172;
+    /* margin-bottom:1rem */
+}
+.fa-solid:hover{
+    color:#ff4c68
+}
+/* testimonial section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin:5%
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    text-align: center;
+    padding:100px;
+}
+@media (max-width:500px) {
+    .title-image{
+        position:static;
+        transform:rotate(0);}
+    #title{
+     text-align: center;
+    }     
+    }
+    
+#cta{
+    background-color: #ff4c68;
+    padding:7% 15%;
+    color:#fff;
+}
+.ft{
+    font-family: 'Montserrat-black';
+    text-align: center;
+    /* margin-bottom: 1rem; */
+    font-size:3.0rem;
+    line-height: 1.5rem;
+}
+.callto{
+    margin-left:18rem;
+    padding-top:2%
+}
+.first{
+/* margin-right:30px; */
+}
+.foot{
+    padding:6% 42%
+}
+.footer-sty{
+    margin-left:25px;
+    margin-right:23px;
+
+}
+.social-icon{
+    margin:20px 5px;
+}
